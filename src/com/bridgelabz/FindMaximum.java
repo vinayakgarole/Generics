@@ -11,7 +11,7 @@ public class FindMaximum<T extends Comparable<T>> {
         this.a3 = a3;
     }
 
-    public static <T extends Comparable<T>> T maxOfValues(T a1, T a2, T a3) {
+    public static <T extends Comparable <T>> T maxOfValues(T a1, T a2, T a3) {
 
         T max = a1;
 
