@@ -26,7 +26,7 @@ public class FindMaximum<T extends Comparable<T>> {
     public static void main(String[] args) {
 
         System.out.println("Welcome To Find Maximum Problem Using Generics \n");
-        System.out.println("The maximum value between the three integer is: " + maxOfValues(3, 8, 5) + "\n");
+        System.out.println("The maximum value between the three integer is: " + maxOfValues(4, 9, 6) + "\n");
         System.out.println("The maximum value between the three float is: " + maxOfValues(1.5F, 3.56F, 5.87F) + "\n");
         System.out.println("The maximum value between the three string is: " + maxOfValues("Apple", "Peach", "Banana"));
     }
